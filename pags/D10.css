@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'IDroid';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
+*{
+    font-family: calibri
+}
+
+p{
+    text-indent: 2em;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(175, 246, 215);
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(39, 198, 123), rgb(6, 106, 44));
+    padding: 9px;
+    color: aliceblue;
+    margin-bottom: 0px;
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.249);
+}
+
+header > h1{
+    text-align: center;
+    font-weight: light;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.345);
+    font-size: 250%;
+    margin-top: 8px;
+}
+header > p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 90%;
+    margin-bottom: 25px;
+}
+.hclass{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 6px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+main{
+    background-color: aliceblue;
+    margin: 0px 10% 0px 10%;
+    text-align: justify;
+    
+    box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.166);
+}
+
+
+article > h1{
+    font-family: 'IDroid';    
+    font-size: 22px;
+    color: rgb(6, 106, 44);
+    margin-top: 0px;
+    padding-left: 16px;
+}
+
+article > h2{
+    background-image: linear-gradient(to right, rgb(176, 254, 206), aliceblue 90%);
+    margin-left: 16px;
+    padding-left: 8px;
+    font-family: 'IDroid';
+    font-size: 18px;
+    color: rgb(6, 106, 44);
+    
+}
+
+.pos{
+    margin:auto;
+    display: block;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 90%;
+}
+
+.imgMob{
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+#bugdroid{
+    width: 40%;
+}
+
+#video{
+    background-color: rgba(4, 133, 73, 0.8);
+    padding: 5.2%;
+    height: 40vw;
+    width: 70vw;
+    margin-bottom: 0px;
+}
+
+footer{
+
+}
+
+.tab{
+    display: inline-block;
+    margin-right: 20%;
+    
+}
+#background{
+    background-color:aliceblue;
+    padding: 1px 0px 1px 0px;
+    margin: 0% 10% 0 10%;
+}
+#grade{
+    background-color: rgb(183, 248, 208);
+    margin:0px 15px 0px 15px ;
+    padding-bottom: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#grade > h1{
+    background-color: rgba(4, 133, 73, 0.8);
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 8px 8px 0px 0px;
+    padding: 8px;
+}
+
+li{
+    text-decoration: underline;
+}
+
+
+
